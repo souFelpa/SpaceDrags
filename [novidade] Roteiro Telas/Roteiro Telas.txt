@@ -1,0 +1,35 @@
+"Splash screen"s: Logo da Space Jam, desenvolvido por fulano, fulano e fulano. Recife, 01 de março de 2015
+
+(música do menu)
+
+Tela 1> Menu: The Amazing Drag Space Queens Race
+	Uma mulher com os braços pra o ar, meio que segurando o planeta, que vai ser em 3D, 	girando e girando
+	- Play
+	- Contact the developers
+	- Know the musics we used
+
+Tela 2> Tela de seleção das personagens:
+	4 Silhuetas, abaixo de cada uma: Pressione [tecla] para entrar.
+	Quando você pressiona, a silhueta fica colorida e esse texto de "pressione...blabla" é 	trocado pelos controles daquela personagem. [tecla tal] Lançar-se / [tecla tal2] [tecla 	tal3] Mover-se / [tecla tal4] Conquistar
+
+Tela 3> Tela de instrução/carregamento (sem música)
+	- Throw yourself among orbits
+	- Conquer satellites for shields no and laser beams
+	- Avoid losing your way by drifting out of the system
+	- Remember that we disencourage direct physical colision with rivals
+	- And may the best woman be the Queen of the Central Planet
+
+Tela de Jogo...
+	Efeitos sonoros e visuais
+	Cabecinhas das personagens em uma das extremidades da tela, com os controles (pra que não 	esqueça)
+
+Tela Final> We have a winner! (bota a ilustração da menina com as cores do vencedor grande)
+	Your time: tal tal e tal
+	You've been burnt by the lasers X times
+	You've been dragged into the darkness of space Y times
+	You exploded your rivals Z times
+	And was exploded W times
+	You conquered K satellites
+	But your high heels are intact
+
+(pressiona qualquer tecla pra sair e a Tela de Contact the developers abre, nela tem a opção "Take me to the game now")
