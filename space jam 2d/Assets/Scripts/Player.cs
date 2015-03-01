@@ -22,6 +22,7 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		this.state = State.DRIFTING;
+		spawn ();
 	}
 	
 	// Update is called once per frame
@@ -110,14 +111,22 @@ public class Player : MonoBehaviour {
 
 	}
 	void OnCollisionEnter2D(Collision2D col){
+		Debug.Log (col.gameObject.name);
 		if(state == State.DRIFTING && col.gameObject.tag == "Planet"){
 			this.landed =  col.gameObject;
 			this.transform.parent = col.gameObject.transform;
 			this.rigidbody2D.velocity  = Vector2.zero;
 			this.rigidbody2D.angularVelocity = 0;
 			this.state = State.LANDED;
-		} else {
-			Debug.LogWarning("not landed");
+		} 
+		if (col.gameObject.tag == "Hazard") {
+			die ();		
+		}
+	}
+	void OnTriggerEnter2D(Collider2D other) {
+		Debug.Log (other.gameObject.name);
+		if (other.gameObject.tag == "Hazard") {
+			die ();		
 		}
 	}
 	void die(){
