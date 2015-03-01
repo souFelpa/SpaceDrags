@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LaserShooter.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player.cs" Line="124" Column="4" />
+      <File FileName="Assets\Scripts\LaserShooter.cs" Line="24" Column="19" />
+      <File FileName="Assets\Scripts\Player.cs" Line="133" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

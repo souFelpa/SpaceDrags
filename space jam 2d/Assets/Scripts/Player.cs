@@ -110,6 +110,7 @@ public class Player : MonoBehaviour {
 		}
 
 	}
+
 	void OnCollisionEnter2D(Collision2D col){
 		Debug.Log (col.gameObject.name);
 		if(state == State.DRIFTING && col.gameObject.tag == "Planet"){
@@ -138,6 +139,12 @@ public class Player : MonoBehaviour {
 		this.state =  State.DEAD;
 		this.deadTime = deadTimeMax;
 	}
+
+	public void Hit()
+	{
+		die();
+	}
+
 	void spawn(){
 		this.state = State.DRIFTING;
 		this.transform.rotation = Quaternion.identity;

@@ -36,8 +36,11 @@
 -define:ENABLE_PROFILER
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_WIN
+Assets/Scripts/Capture.cs
+Assets/Scripts/LaserShooter.cs
 Assets/Scripts/Orbit.cs
 Assets/Scripts/Planet.cs
 Assets/Scripts/Player.cs
+Assets/Scripts/Utils/Utils.cs
 -r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/unity\System.Runtime.Serialization.dll"
 -r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/unity\System.Xml.Linq.dll"

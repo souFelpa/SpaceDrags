@@ -5,7 +5,7 @@ public class Capture : MonoBehaviour {
 
 	float CaptureTime = 2f;
 	Player currentPlayer = null;
-	List<CaptureProgress> progress;
+	//List<CaptureProgress> progress;
 	struct CaptureProgress {
 		Player player;
 		float progress;
